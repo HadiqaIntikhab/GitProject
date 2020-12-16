@@ -5,7 +5,7 @@
     
 }
 body{
-   background: url(newF.jpeg) no-repeat center center fixed;
+   background: url(show.png) no-repeat center center fixed;
     
    background-size: cover;
 }
@@ -18,7 +18,8 @@ body{
 h1
 {
    text-align: center;
-   color: #5b6463;
+   color:  #2f2344da;
+   font-size: 40px;
 }
 
 .contact_form .single_box
@@ -40,12 +41,13 @@ h1
 .contact_form  .single_box h2
 {
    font-size: 20px;
-   color:black;
+   color: white;
 }
 
  p
 {
    text-align: center;
+   color: white;
 
 }
 
@@ -53,9 +55,9 @@ form
 {
 
 
-   background: rgb(88, 115, 124);
+   background:  #2a377c67;
    padding: 30px;
-   box-shadow:  inset 0px 0px 20px 4px #18dfc4da;
+   box-shadow:  inset 0px 0px 20px 4px #222d50da;
 }
 
 form label
@@ -76,14 +78,14 @@ form button
    border-radius: 0 !important;
    /* padding:50px !important; */
    border: none !important;
-   box-shadow: inset 0px 0px 20px 2px #104942f1;
+   box-shadow: inset 0px 0px 20px 2px rgb(90, 38, 38);
    color: black !important;
 }
 
 form button:hover
 {
    
-   background: #18dfc5a6;
+   background:rgb(202, 117, 117);
 }
 
 form textarea
