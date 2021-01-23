@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: wheat;
+  }
+  
+  li {
+    float: right;
+    display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  }
+
+body{
+    
+    background-color: white;
+}
+.about{
+    background: url(show.png) no-repeat left;
+    background-size: 55%;
+    background-color: deepskyblue;
+    overflow: hidden;
+    padding: 64px 0;
+}
+ .inner-section{
+    width: 55%;
+    float: right;
+    background-color: wheat;
+    padding: 140px;
+    box-shadow: 10px 10px 8px rgba(0,0,0,0.3);
+}
+.skills button{
+    text-align: center;
+    border: none;
+    border-radius: 15px;
+    padding: 4px;
+    width: 80px;
+    background-color: deepskyblue;
+    color: wheat;
+    cursor: pointer;
+}
+.skills button:hover{
+    transition: 1s;
+    background-color: green;
+    color: greenyellow;
+}
